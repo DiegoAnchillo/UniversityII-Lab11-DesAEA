@@ -15,6 +15,9 @@ namespace UniversityII.Models
         [StringLength(50)]
         [Display(Name="Office Location")]
         public string Location { get; set; }
+
+        [Display(Name ="Estado")]
+        public string Estado { get; set; }
         public virtual Instructor Instructor { get; set; }
     }
 }

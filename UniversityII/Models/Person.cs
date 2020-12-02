@@ -27,5 +27,7 @@ namespace UniversityII.Models
                 return LastName + ", " + FirstMidName;
             }
         }
+        [Display(Name = "Estado")]
+        public string Estado { get; set; }
     }
 }
